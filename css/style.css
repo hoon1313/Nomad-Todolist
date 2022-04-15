@@ -1,0 +1,52 @@
+
+* {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.hidden {
+    display : none;
+}
+quote{
+    width : 500px;
+    margin:auto;
+} 
+.todolist-div{
+    max-width: 10em;
+}
+
+.todo-form{
+    margin-left : 2em;
+}
+#time {
+    text-align: center;
+    font-size: 50pt;
+}
+body {
+    background-color: skyblue;
+    color : white;
+    background-image: url(../img/1.jpg);
+}
+#weather {
+    text-align: right;
+    font-size : 20pt;
+    font-weight: bold;
+}
+
+.loginForm {
+    background-color: blue;
+    text-align: center;
+    border-radius: 100px;
+}
+.loginSuccess{
+
+    background-color: brown;
+    text-align: center;
+    font-size : 25pt;
+}
+#todo-form > input{
+    width : 180px;
+    height: 2em;
+}
+
+.todoInput {
+    text-align : center;
+}

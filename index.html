@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+  <title>Hoon`s to-do list</title>
+</head>
+
+<body>
+  <div>
+    <div id="weather">
+      <span></span><br>
+      <span></span>
+    </div>
+    <h1 id="time"></h1>
+  </div>
+  <div class="loginForm">
+    <form id="userInput" class="hidden">
+      <input type="text" required placeholder="이름을 입력하세요." />
+      <input type="submit" id="logInBtn" value="확인"></input>
+    </form>
+  </div>
+
+  <div class="loginSuccess">
+    <h2 class="hidden" id="nameAppend"></h2>
+  </div>
+
+
+  <div id="quote">
+    <span></span><br>
+    <span></span>
+  </div>
+
+  <div class="todoInput">
+    <form id="todo-form">
+      <input type="text" required placeholder="Write a To Do and Press Enter" .>
+    </form>
+    </form>
+  </div>
+  <div class="todolist-div">
+    <ul id="todo-list">
+    </ul>
+  </div>
+</body>
+<script src="js/clock.js"></script>
+<script src="js/background.js"></script>
+<script src="js/login.js"></script>
+<!-- <script src = "js/quote.js"></script> -->
+<script src="js/todo.js"></script>
+<script src="js/weather.js"></script>
+
+</html>
